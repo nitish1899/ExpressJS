@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book A Call</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/product.css">
+    <link rel="stylesheet" href="/css/forms.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list">
+                <li class="main-header__item"><a href="/">Home</a></li>
+                <li class="main-header__item"><a href="/">Courses</a></li>
+                <li class="main-header__item"><a href="/">Hire With Us</a></li>
+                <li class="main-header__item"><a href="/">Pricing</a></li>
+                <li class="main-header__item"><a href="/">Register Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form class="product-form" action="/success" method="POST">
+            <div class="form-control">
+                <label for="Fname" >First Name:</label>
+                <input type="text" name="FName" id="Fname" placeholder="firstName" required><br>
+                <label for="Lname" >Last Name:</label>
+                <input type="text" name="LName" id="Lname" placeholder="lastName"><br>
+                <label for="PhNo" >Ph. No:</label>
+                <input type="number" name="PhNo" id="PhNo" placeholder="phoneNumber" required><br>
+                <label for="email" >Email Id:</label>
+                <input type="email" name="Email" id="email" placeholder="Email id" required><br>
+            </div>
+            <button type="submit">Submit</button>
+        </form >
+    </main>
+</body>
+</html>
