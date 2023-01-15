@@ -163,6 +163,7 @@ exports.postOrder = (req,res,next) => {
   .catch(err => console.log(err));
 }
 
+
 exports.getOrders = (req, res, next) => {
   req.user 
   .getOrders({include: ['products']})

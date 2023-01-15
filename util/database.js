@@ -6,7 +6,6 @@
 //   database: 'nitishdb',
 //   password: 'Nitish@1899'
 // });
-
 // module.exports = pool.promise();
 
 const Sequelize = require('sequelize');

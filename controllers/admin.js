@@ -27,6 +27,7 @@ exports.postAddProduct = (req, res, next) => {
   .catch(err => console.log(err));
 };
 
+
 exports.getEditProduct = (req, res, next) => {
   const editMode = req.query.edit; // The extracted value always is a string , so "true" instead of true.
   if(!editMode){
